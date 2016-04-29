@@ -44,7 +44,7 @@ type Config struct {
 
 // Filename returns password data filename
 func (cfg Config) Filename() string {
-	return "password.data"
+	return ".password.data"
 }
 
 // MasterPassword returns master password
